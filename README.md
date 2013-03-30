@@ -29,7 +29,7 @@
 * GCD完全対応 (ViewのAPIにはメインキューでアクセスすること)
 * デモアプリのiPhone対応(このライブラリ自体は対応)
 
-## 使いかた
+## 使いかた Usage
 
 デモを実行するには [DTCoreText](https://github.com/Cocoanetics/DTCoreText) が必要です。
 submoduleとして入っています。
@@ -43,7 +43,7 @@ submoduleとして入っています。
 
 オプションのファイル群は必要が無ければ追加しなくても動作します。
 
-## ライセンス
+## ライセンス License
 MIT
 
 Copyright © 2011-12 Yusuke Ito
