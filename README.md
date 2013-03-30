@@ -1,12 +1,11 @@
-
 ![Screenshot 1](https://github.com/downloads/novi/LTCoreText/ss1-s.png)
 
 ![Screenshot 2](https://github.com/downloads/novi/LTCoreText/ss2.png)
 
-## できる
+## できる Can Do
 
 * それなりに軽量
-* ページング
+* ページング Pagination
 * 段組み
 * 縦置き/縦書き (iOS 4.3以降)
 * 均等揃え
@@ -15,11 +14,11 @@
 * レイアウトモード、ページ送り方向(横・逆方向・縦)
 * 動的なページ挿入・削除
 * 非同期レイアウト処理
-* iOS 4以降対応
+* iOS 4以降対応 iOS 4 and up.
 
-## できない
+## できない Cannot Do
 
-* `NSAttributedString` の作成 (デモAppでは [DTCoreText](https://github.com/Cocoanetics/DTCoreText) を使用)
+* `NSAttributedString` の作成 (デモAppでは [DTCoreText](https://github.com/Cocoanetics/DTCoreText) を使用) 
 * 動的なフレームサイズの変更
 * ルビ
     * ただし、カスタムビューでルビ用のラベルを貼り付けることは可能 (MainViewController参照)
