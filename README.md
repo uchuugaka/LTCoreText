@@ -4,30 +4,30 @@
 
 ## できる Can Do
 
-* それなりに軽量
+* それなりに軽量 Light weight rendering
 * ページング Pagination
-* 段組み
-* 縦置き/縦書き (iOS 4.3以降)
+* 段組み Column grouping
+* 縦置き/縦書き (iOS 4.3以降) Vertical range and layout (iOS 4.3 and up)
 * 均等揃え
 * ハイフネーション(ハイフネーションライブラリが必要)
 * カスタムビュー等の埋め込み
-* レイアウトモード、ページ送り方向(横・逆方向・縦)
-* 動的なページ挿入・削除
-* 非同期レイアウト処理
+* レイアウトモード、ページ送り方向(横・逆方向・縦) Layout mode, Page (text) flow direction (horizontal, reverse, vertical) 
+* 動的なページ挿入・削除 Dynamic page insertion, deletion
+* 非同期レイアウト処理 Ansynchronous page laout processing
 * iOS 4以降対応 iOS 4 and up.
 
 ## できない Cannot Do
 
-* `NSAttributedString` の作成 (デモAppでは [DTCoreText](https://github.com/Cocoanetics/DTCoreText) を使用) 
-* 動的なフレームサイズの変更
-* ルビ
-    * ただし、カスタムビューでルビ用のラベルを貼り付けることは可能 (MainViewController参照)
-    * デモとして赤い文字で出ます
-* リンク等のイベント処理
-    * カスタムビューを作成すれば可能
-* テキスト選択
-* GCD完全対応 (ViewのAPIにはメインキューでアクセスすること)
-* デモアプリのiPhone対応(このライブラリ自体は対応)
+* `NSAttributedString` の作成 (デモAppでは [DTCoreText](https://github.com/Cocoanetics/DTCoreText) を使用) `NSAttributedString` creation ( [DTCoreText](https://github.com/Cocoanetics/DTCoreText) is used in the demo app. )
+* 動的なフレームサイズの変更 Dynamic frame resizing. 
+* ルビ Ruby text
+    * ただし、カスタムビューでルビ用のラベルを貼り付けることは可能 (MainViewController参照) But, labels for Ruby text can be placed in custom views (See MainViewController)
+    * デモとして赤い文字で出ます Red characters appear with the demo.
+* リンク等のイベント処理 Event processing such as hyperlinks.
+    * カスタムビューを作成すれば可能 Available if creating custom views.
+* テキスト選択 Text selection.
+* GCD完全対応 (ViewのAPIにはメインキューでアクセスすること) Complete GCD support. (The main queue is accessible in the View API.)
+* デモアプリのiPhone対応(このライブラリ自体は対応) Demo app supports iPhone (This library itself is supported.)
 
 ## 使いかた Usage
 
