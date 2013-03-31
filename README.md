@@ -8,9 +8,9 @@
 * ページング Pagination
 * 段組み Column grouping
 * 縦置き/縦書き (iOS 4.3以降) Vertical range and layout (iOS 4.3 and up)
-* 均等揃え
-* ハイフネーション(ハイフネーションライブラリが必要)
-* カスタムビュー等の埋め込み
+* 均等揃え Uniform arrangement
+* ハイフネーション(ハイフネーションライブラリが必要) Hyphenation (Hyphenation library required)
+* カスタムビュー等の埋め込み Custom view padding
 * レイアウトモード、ページ送り方向(横・逆方向・縦) Layout mode, Page (text) flow direction (horizontal, reverse, vertical) 
 * 動的なページ挿入・削除 Dynamic page insertion, deletion
 * 非同期レイアウト処理 Ansynchronous page laout processing
@@ -31,10 +31,10 @@
 
 ## 使いかた Usage
 
-デモを実行するには [DTCoreText](https://github.com/Cocoanetics/DTCoreText) が必要です。
-submoduleとして入っています。
+デモを実行するには [DTCoreText](https://github.com/Cocoanetics/DTCoreText) が必要です。Running the demo app requires  [DTCoreText](https://github.com/Cocoanetics/DTCoreText) 
+submoduleとして入っています。The submodule is included.
 
-デモプロジェクトのファイルをそのままターゲットプロジェクトに追加します。Just add the demp project files to the target project.
+デモプロジェクトのファイルをそのままターゲットプロジェクトに追加します。Just add the demp project files to the target project. Just add the demo project file to the target project. 
 デモプロジェクトを開いたときのグループのそれぞれの役割は次の通りです。 When the demo project is opened, group are according to function.
 
 * `Base`: ライブラリの基本 (必須) Base library. (Required)
