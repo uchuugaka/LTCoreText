@@ -34,14 +34,14 @@
 デモを実行するには [DTCoreText](https://github.com/Cocoanetics/DTCoreText) が必要です。
 submoduleとして入っています。
 
-デモプロジェクトのファイルをそのままターゲットプロジェクトに追加します。
-デモプロジェクトを開いたときのグループのそれぞれの役割は次の通りです。
+デモプロジェクトのファイルをそのままターゲットプロジェクトに追加します。Just add the demp project files to the target project.
+デモプロジェクトを開いたときのグループのそれぞれの役割は次の通りです。 When the demo project is opened, group are according to function.
 
-* `Base`: ライブラリの基本 (必須)
-* `Attachment/ImageView`: イメージビューの埋め込み (オプション)
-* `Demo`: ライブラリの使いかたはここを参照してください。
+* `Base`: ライブラリの基本 (必須) Base library. (Required)
+* `Attachment/ImageView`: イメージビューの埋め込み (オプション) Image view padding (Optional)
+* `Demo`: ライブラリの使いかたはここを参照してください。Please review this for library usage how-to.
 
-オプションのファイル群は必要が無ければ追加しなくても動作します。
+オプションのファイル群は必要が無ければ追加しなくても動作します。 If optional file group is not required, it will still function without adding them.
 
 ## ライセンス License
 MIT
